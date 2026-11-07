@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>konsole3d demo</title>
+<style>
+:root{color-scheme:dark}
+body{margin:0;background:#0b0a08;color:#f1ece2;font:16px/1.6 ui-monospace,Menlo,Consolas,monospace}
+main{max-width:1100px;margin:0 auto;padding:32px 20px 64px}
+h1{font:600 28px system-ui,sans-serif;margin:0 0 6px}
+p{color:#a8a298;margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(320px,100%),1fr));gap:16px}
+figure{margin:0;border:1px solid rgba(237,237,237,.14);border-radius:14px;overflow:hidden;background:#121110}
+figcaption{padding:10px 14px;border-top:1px solid rgba(237,237,237,.08);font-size:12px;color:#a8a298}
+.ascii{display:block;margin:0;height:320px;white-space:pre;overflow:hidden;user-select:none;cursor:grab;touch-action:pan-y;font-family:ui-monospace,Menlo,Consolas,monospace;font-weight:500;line-height:1;color:#e8dcc3;contain:strict}
+</style>
+</head>
+<body>
+<main>
+<h1>konsole3d</h1>
+<p>Live ASCII 3D objects, no libraries. Drag any object to turn it.</p>
+<div class="grid">
+  <figure><pre class="ascii" data-shape="fernsehturm" data-size="6" data-speed="0.32" data-pitch="0.1" data-wobble="0"></pre><figcaption>data-shape="fernsehturm" (Berlin TV tower)</figcaption></figure>
+  <figure><pre class="ascii" data-shape="ring" data-size="7"></pre><figcaption>data-shape="ring"</figcaption></figure>
+  <figure><pre class="ascii" data-shape="kugel" data-size="7"></pre><figcaption>data-shape="kugel" (globe)</figcaption></figure>
+  <figure><pre class="ascii" data-shape="wuerfel" data-size="7"></pre><figcaption>data-shape="wuerfel" (cube)</figcaption></figure>
+  <figure><pre class="ascii" data-src="logo-u.svg" data-fit="0.5,0.62" data-res="220" data-size="6" data-floor="1" data-speed="0.3"></pre><figcaption>data-src="logo-u.svg" with data-floor="1"</figcaption></figure>
+</div>
+</main>
+<script src="ascii3d.js"></script>
+</body>
+</html>
