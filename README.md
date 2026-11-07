@@ -3,7 +3,9 @@
 Live ASCII 3D objects for the web, in one file with no dependencies. It powers the Berlin landmarks on
 [germanstudy.tech](https://www.germanstudy.tech), the site of the Deutsch-Klub at Constructor University.
 
-Open `index.html` through any local web server to see the demo (images do not load from `file://`).
+**Live demo:** https://kulikovmihajlo44-afk.github.io/grmnstd-preview/
+
+To run it locally, open `index.html` through any local web server (images do not load from `file://`).
 
 ## How it works
 
