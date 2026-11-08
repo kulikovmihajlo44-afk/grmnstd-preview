@@ -1,4 +1,4 @@
-# konsole3d
+# germanstudy.tech preview
 
 Live ASCII 3D objects for the web, in one file with no dependencies. It powers the Berlin landmarks on
 [germanstudy.tech](https://www.germanstudy.tech), the site of the Deutsch-Klub at Constructor University.
